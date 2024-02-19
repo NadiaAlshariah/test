@@ -12,6 +12,6 @@ public class InitCommand implements Runnable {
         Directory directory = new Directory(path);
         directoryRepostiory.saveDirectory(directory);
         System.out.println("repository has been initialized");
-        directoryRepostiory.findById(path);
+        //directoryRepostiory.findById(path);
     }
 }
